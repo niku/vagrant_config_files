@@ -1,3 +1,6 @@
 [submodule "cookbooks/users"]
 	path = cookbooks/users
 	url = git://github.com/opscode-cookbooks/users.git
+[submodule "cookbooks/chef-solo-search"]
+	path = cookbooks/chef-solo-search
+	url = git://github.com/edelight/chef-solo-search.git
