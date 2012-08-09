@@ -1,0 +1,5 @@
+{
+  "id": "niku",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA5UHxKXoBpjz0HB7wouhEiOVJe8sBYe1kaSPZ9j/wW2kQClFAkUTO5yWOuOB7ZCjEbpINTVtXXr1q9J+XsS3gvjZPWXl798UWHb5ACAQI/djImIG+gqzuS0MgqPtoJWAqPih66dGKLQlE4C9NHUhX7vV+aqEEHynJFdOaSZYSEz7nWoaUJnCwwRBJjkOIYB2BRnyp37usuFcGRFnZxKCGcGOPLD96F3syb5HLCJCnLAIhwg4EMvDhgr3yWy2SZSbmDeKiq05CVq7cdgWNBnQhIAYZz3AoU8//DD7G7LiZe6OHro9EwQxGYgf63DMJSq0nFcJsnCQ9j0vvwzkeejr0uw== niku",
+  "groups": [ "sysadmin" ]
+}
