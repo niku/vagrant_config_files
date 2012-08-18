@@ -1,0 +1,48 @@
+* What is this?
+
+[[http://vagrantup.com/][Vagrant]] config files.It includes setting to create my account.
+
+* How to use?
+
+require [[https://www.virtualbox.org/][virtualbox]] and [[http://vagrantup.com/][vagrant]]
+
+** with git
+
+#+BEGIN_EXAMPLE
+$ git clone git://github.com/niku/vagrant_config_files.git
+$ cd vagrant_config_files
+$ git submodule init
+$ git submodule update
+$ vagrant box add base http://files.vagrantup.com/lucid32.box
+$ vagrant up
+$ chmod 600 id_rsa
+$ ssh niku@127.0.0.1 -p 2222 -i id_rsa
+#+END_EXAMPLE
+
+** without git
+1. Download [[https://nodeload.github.com/niku/vagrant_config_files/zipball/minimum_set][vagrant_config_files]], [[https://nodeload.github.com/edelight/chef-solo-search/zipball/83fd5c5da1d32f53dba782cafaf8fad9f17b76a8][chef-solo-search]] and [[https://nodeload.github.com/opscode-cookbooks/users/zipball/9aaaddc230e80ce280409fe092f669c45b19e7ac][users]]
+2. extract file like 'directory structure'
+3. exec command
+#+BEGIN_EXAMPLE
+$ cd vagrant_config_files
+$ vagrant box add base http://files.vagrantup.com/lucid32.box
+$ vagrant up
+$ chmod 600 id_rsa
+$ ssh niku@127.0.0.1 -p 2222 -i id_rsa
+#+END_EXAMPLE
+
+** directory structure
+#+BEGIN_EXAMPLE
+vagrant_config_files
+├── Vagrantfile
+├── cookbooks
+│   ├── chef-solo-search
+│   │   └── ...
+│   └── users
+│       └── ...
+├── data_bags
+│   └── users
+│       └── niku.json
+├── id_rsa
+└── id_rsa.pub
+#+END_EXAMPLE
