@@ -81,6 +81,7 @@ Vagrant::Config.run do |config|
 
     chef.add_recipe "sudo"
     chef.add_recipe "build-essential"
+    chef.add_recipe "rbenv::user_install"
 
     chef.json = {
 
@@ -89,6 +90,14 @@ Vagrant::Config.run do |config|
           'passwordless' => true
         }
       },
+
+      'rbenv' => {
+        'user_installs' => [
+          {
+            'user' => 'niku'
+          }
+        ]
+      }
 
     }
   end
