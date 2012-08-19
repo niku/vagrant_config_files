@@ -25,3 +25,6 @@
 [submodule "cookbooks/java"]
 	path = cookbooks/java
 	url = git://github.com/opscode-cookbooks/java.git
+[submodule "cookbooks/ruby_build"]
+	path = cookbooks/ruby_build
+	url = git://github.com/fnichol/chef-ruby_build.git
