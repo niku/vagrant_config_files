@@ -4,3 +4,6 @@
 [submodule "cookbooks/chef-solo-search"]
 	path = cookbooks/chef-solo-search
 	url = git://github.com/edelight/chef-solo-search.git
+[submodule "cookbooks/sudo"]
+	path = cookbooks/sudo
+	url = git://github.com/opscode-cookbooks/sudo.git

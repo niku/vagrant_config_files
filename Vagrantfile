@@ -78,6 +78,18 @@ Vagrant::Config.run do |config|
     chef.data_bags_path = "data_bags"
 
     chef.add_recipe "users::sysadmins"
+
+    chef.add_recipe "sudo"
+
+    chef.json = {
+
+      'authorization' => {
+        'sudo' => {
+          'passwordless' => true
+        }
+      },
+
+    }
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,
