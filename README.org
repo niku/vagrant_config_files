@@ -17,6 +17,9 @@ $ vagrant box add base http://files.vagrantup.com/lucid32.box
 $ vagrant up
 $ chmod 600 id_rsa
 $ ssh niku@127.0.0.1 -p 2222 -i id_rsa
+$ rbenv install 1.9.3-p286
+$ rbenv global  1.9.3-p286
+$ rbenv rehash
 #+END_EXAMPLE
 
 ** without git
@@ -29,20 +32,40 @@ $ vagrant box add base http://files.vagrantup.com/lucid32.box
 $ vagrant up
 $ chmod 600 id_rsa
 $ ssh niku@127.0.0.1 -p 2222 -i id_rsa
+$ rbenv install 1.9.3-p286
+$ rbenv global  1.9.3-p286
+$ rbenv rehash
 #+END_EXAMPLE
 
 ** directory structure
 #+BEGIN_EXAMPLE
 vagrant_config_files
-├── Vagrantfile
-├── cookbooks
-│   ├── chef-solo-search
-│   │   └── ...
-│   └── users
-│       └── ...
-├── data_bags
-│   └── users
-│       └── niku.json
-├── id_rsa
-└── id_rsa.pub
+|-- cookbooks
+|   |-- build-essential
+|   |   `-- ...
+|   |-- chef-solo-search
+|   |   `-- ...
+|   |-- java
+|   |   `-- ...
+|   |-- rbenv
+|   |   `-- ...
+|   |-- readline
+|   |   `-- ...
+|   |-- ruby_build
+|   |   `-- ...
+|   |-- sudo
+|   |   `-- ...
+|   |-- users
+|   |   `-- ...
+|   |-- xml
+|   |   `-- ...
+|   `-- zlib
+|       `-- ...
+|-- data_bags
+|   `-- users
+|       `-- niku.json
+|-- id_rsa
+|-- id_rsa.pub
+|-- README.org
+`-- Vagrantfile
 #+END_EXAMPLE
