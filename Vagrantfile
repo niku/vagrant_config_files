@@ -91,6 +91,7 @@ Vagrant::Config.run do |config|
     chef.add_recipe "rbenv::user_install"
     chef.add_recipe "ruby_build"
     chef.add_recipe "git"
+    chef.add_recipe "subversion::client"
 
     chef.json = {
 

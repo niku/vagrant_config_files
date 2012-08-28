@@ -31,3 +31,6 @@
 [submodule "cookbooks/git"]
 	path = cookbooks/git
 	url = git://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/subversion"]
+	path = cookbooks/subversion
+	url = git://github.com/opscode-cookbooks/subversion.git
