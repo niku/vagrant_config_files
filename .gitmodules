@@ -7,3 +7,6 @@
 [submodule "cookbooks/sudo"]
 	path = cookbooks/sudo
 	url = git://github.com/opscode-cookbooks/sudo.git
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git
