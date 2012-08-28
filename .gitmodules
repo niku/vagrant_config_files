@@ -28,3 +28,6 @@
 [submodule "cookbooks/ruby_build"]
 	path = cookbooks/ruby_build
 	url = git://github.com/fnichol/chef-ruby_build.git
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = git://github.com/opscode-cookbooks/git.git
