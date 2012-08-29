@@ -81,7 +81,7 @@ Vagrant::Config.run do |config|
     chef.data_bags_path = "data_bags"
 
     chef.add_recipe "users::sysadmins"
-
+    chef.add_recipe "apt"
     chef.add_recipe "sudo"
     chef.add_recipe "build-essential"
     chef.add_recipe "zlib"
