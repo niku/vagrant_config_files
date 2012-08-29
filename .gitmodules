@@ -34,3 +34,6 @@
 [submodule "cookbooks/subversion"]
 	path = cookbooks/subversion
 	url = git://github.com/opscode-cookbooks/subversion.git
+[submodule "cookbooks/screen"]
+	path = cookbooks/screen
+	url = git://github.com/opscode-cookbooks/screen.git

@@ -88,6 +88,7 @@ Vagrant::Config.run do |config|
     chef.add_recipe "xml"
     chef.add_recipe "readline"
     chef.add_recipe "java"
+    chef.add_recipe "screen"
     chef.add_recipe "rbenv::user_install"
     chef.add_recipe "ruby_build"
     chef.add_recipe "git"
