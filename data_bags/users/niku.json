@@ -2,5 +2,5 @@
   "id": "niku",
   "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDefEVZGljsa3KAHOHhfQ4smm9NvdDNnSNdlZVVGlTNIMQAJW2P0mb4gp7zzD/jwoe8egO/m+j5inXJnOo3zhlXJYon0dyrKIB8MUZcSRDaHv47g7+7RPQEYgHReEXOm9HBS5fmCR0gXJ2bOt4shzoDuoHWbHrV/MgPat0ry0eYmheQwR67unqvZit1oZD9W6oB8YGJTombtdpMm7NUfnYByi7iG5j45JgiIeOEJIV7QUc+8zG+xkzEu2U6rXbxrf+IJzVar69Pfk3ncCJ8pyHg7mOx+GdWKNa6EmT2NS7EYR8Nevygko91DNXoq/sWj5zmK9QCoxMIN0eGJVpVb5V3 niku",
   "groups": [ "sysadmin" ],
-  "shell": "\/bin\/bash"
+  "shell": "\/bin\/zsh"
 }

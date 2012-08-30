@@ -37,3 +37,6 @@
 [submodule "cookbooks/screen"]
 	path = cookbooks/screen
 	url = git://github.com/opscode-cookbooks/screen.git
+[submodule "cookbooks/zsh"]
+	path = cookbooks/zsh
+	url = git://github.com/opscode-cookbooks/zsh.git
