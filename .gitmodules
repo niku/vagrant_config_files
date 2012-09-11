@@ -49,3 +49,6 @@
 [submodule "cookbooks/locale-gen"]
 	path = cookbooks/locale-gen
 	url = git://github.com/niku/locale-gen.git
+[submodule "cookbooks/locale"]
+	path = cookbooks/locale
+	url = git://github.com/heavywater/chef-locale.git

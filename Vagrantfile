@@ -81,6 +81,7 @@ Vagrant::Config.run do |config|
     chef.data_bags_path = "data_bags"
 
     chef.add_recipe "locale-gen"
+    chef.add_recipe "locale"
     chef.add_recipe "users::sysadmins"
     chef.add_recipe "apt"
     chef.add_recipe "emacs-snapshot"
@@ -100,6 +101,10 @@ Vagrant::Config.run do |config|
     chef.json = {
       'localegen' => {
         'lang' => ['ja_JP.UTF-8']
+      },
+
+      'locale' => {
+        'lang' => 'ja_JP.UTF-8'
       },
 
       'authorization' => {
