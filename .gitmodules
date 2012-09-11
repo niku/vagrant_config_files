@@ -46,3 +46,6 @@
 [submodule "cookbooks/emacs-snapshot"]
 	path = cookbooks/emacs-snapshot
 	url = git://github.com/niku/emacs-snapshot.git
+[submodule "cookbooks/locale-gen"]
+	path = cookbooks/locale-gen
+	url = git://github.com/niku/locale-gen.git
