@@ -82,6 +82,7 @@ Vagrant::Config.run do |config|
 
     chef.add_recipe "locale-gen"
     chef.add_recipe "locale"
+    chef.add_recipe "timezone"
     chef.add_recipe "users::sysadmins"
     chef.add_recipe "apt"
     chef.add_recipe "emacs-snapshot"
@@ -97,7 +98,6 @@ Vagrant::Config.run do |config|
     chef.add_recipe "ruby_build"
     chef.add_recipe "git"
     chef.add_recipe "subversion::client"
-
     chef.json = {
       'localegen' => {
         'lang' => ['ja_JP.UTF-8']
@@ -106,6 +106,8 @@ Vagrant::Config.run do |config|
       'locale' => {
         'lang' => 'ja_JP.UTF-8'
       },
+
+      'tz' => 'Asia/Tokyo',
 
       'authorization' => {
         'sudo' => {

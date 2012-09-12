@@ -52,3 +52,6 @@
 [submodule "cookbooks/locale"]
 	path = cookbooks/locale
 	url = git://github.com/heavywater/chef-locale.git
+[submodule "cookbooks/timezone"]
+	path = cookbooks/timezone
+	url = git://github.com/niku/chef-timezone.git
