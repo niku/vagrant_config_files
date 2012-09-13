@@ -100,7 +100,8 @@ Vagrant::Config.run do |config|
     chef.add_recipe "subversion::client"
     chef.json = {
       'localegen' => {
-        'lang' => ['ja_JP.UTF-8']
+        'lang' => ['ja_JP.UTF-8'] # for ubuntu
+        # 'lang' => ['ja_JP.UTF-8 UTF-8'] # for debian
       },
 
       'locale' => {
