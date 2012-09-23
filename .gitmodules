@@ -22,3 +22,6 @@
 [submodule "cookbooks/readline"]
 	path = cookbooks/readline
 	url = git://github.com/atomic-penguin/cookbook-readline.git
+[submodule "cookbooks/java"]
+	path = cookbooks/java
+	url = git://github.com/opscode-cookbooks/java.git
