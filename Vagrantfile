@@ -83,6 +83,7 @@ Vagrant::Config.run do |config|
     chef.add_recipe "build-essential"
     chef.add_recipe "zlib"
     chef.add_recipe "xml"
+    chef.add_recipe "readline"
     chef.add_recipe "rbenv::user_install"
 
     chef.json = {

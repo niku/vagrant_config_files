@@ -19,3 +19,6 @@
 [submodule "cookbooks/xml"]
 	path = cookbooks/xml
 	url = git://github.com/opscode-cookbooks/xml.git
+[submodule "cookbooks/readline"]
+	path = cookbooks/readline
+	url = git://github.com/atomic-penguin/cookbook-readline.git
