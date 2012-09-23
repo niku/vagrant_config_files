@@ -13,4 +13,6 @@
 [submodule "cookbooks/rbenv"]
 	path = cookbooks/rbenv
 	url = git://github.com/fnichol/chef-rbenv.git
-
+[submodule "cookbooks/zlib"]
+	path = cookbooks/zlib
+	url = git://github.com/opscode-cookbooks/zlib.git

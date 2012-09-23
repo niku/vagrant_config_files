@@ -81,6 +81,7 @@ Vagrant::Config.run do |config|
 
     chef.add_recipe "sudo"
     chef.add_recipe "build-essential"
+    chef.add_recipe "zlib"
     chef.add_recipe "rbenv::user_install"
 
     chef.json = {
