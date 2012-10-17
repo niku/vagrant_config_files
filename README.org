@@ -11,6 +11,7 @@ require [[https://www.virtualbox.org/][virtualbox]] and [[http://vagrantup.com/]
 #+BEGIN_EXAMPLE
 $ git clone git://github.com/niku/vagrant_config_files.git
 $ cd vagrant_config_files
+$ git checkout minimum_set
 $ git submodule init
 $ git submodule update
 $ vagrant box add base http://files.vagrantup.com/lucid32.box
