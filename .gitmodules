@@ -58,3 +58,6 @@
 [submodule "cookbooks/cmigemo"]
 	path = cookbooks/cmigemo
 	url = git://github.com/niku/cmigemo.git
+[submodule "cookbooks/exuberant-ctags"]
+	path = cookbooks/exuberant-ctags
+	url = git://github.com/niku/exuberant-ctags.git
