@@ -88,6 +88,7 @@ Vagrant::Config.run do |config|
     chef.add_recipe "emacs-snapshot"
     chef.add_recipe "sudo"
     chef.add_recipe "build-essential"
+    chef.add_recipe "cmigemo"
     chef.add_recipe "zlib"
     chef.add_recipe "xml"
     chef.add_recipe "readline"
