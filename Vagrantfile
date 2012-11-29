@@ -114,6 +114,7 @@ Vagrant::Config.run do |config|
 
       'authorization' => {
         'sudo' => {
+          'groups' => %w(admin wheel sysadmin),
           'passwordless' => true
         }
       },
