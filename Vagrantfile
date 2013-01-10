@@ -125,6 +125,10 @@ Vagrant::Config.run do |config|
             'user' => 'niku'
           }
         ]
+      },
+
+      'ruby_build' => {
+        'upgrade' => 'sync'
       }
 
     }
