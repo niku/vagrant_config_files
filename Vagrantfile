@@ -100,6 +100,8 @@ Vagrant::Config.run do |config|
     chef.add_recipe "ruby_build"
     chef.add_recipe "git"
     chef.add_recipe "subversion::client"
+    chef.add_recipe "nodejs::install_from_package"
+    chef.add_recipe "nodejs::npm"
     chef.json = {
       'localegen' => {
         'lang' => ['ja_JP.UTF-8'] # for ubuntu
