@@ -64,3 +64,6 @@
 [submodule "cookbooks/nodejs"]
 	path = cookbooks/nodejs
 	url = git://github.com/mdxp/nodejs-cookbook.git
+[submodule "cookbooks/tmux"]
+	path = cookbooks/tmux
+	url = git://github.com/opscode-cookbooks/tmux.git
