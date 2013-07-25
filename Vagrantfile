@@ -80,6 +80,7 @@ Vagrant::Config.run do |config|
     chef.cookbooks_path = "cookbooks"
     chef.data_bags_path = "data_bags"
 
+    chef.add_recipe "ark"
     chef.add_recipe "locale-gen"
     chef.add_recipe "locale"
     chef.add_recipe "timezone"

@@ -67,3 +67,6 @@
 [submodule "cookbooks/tmux"]
 	path = cookbooks/tmux
 	url = https://github.com/opscode-cookbooks/tmux.git
+[submodule "cookbooks/ark"]
+	path = cookbooks/ark
+	url = https://github.com/opscode-cookbooks/ark.git
