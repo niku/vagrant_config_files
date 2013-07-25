@@ -1,69 +1,69 @@
 [submodule "cookbooks/users"]
 	path = cookbooks/users
-	url = git://github.com/opscode-cookbooks/users.git
+	url = https://github.com/opscode-cookbooks/users.git
 [submodule "cookbooks/chef-solo-search"]
 	path = cookbooks/chef-solo-search
-	url = git://github.com/edelight/chef-solo-search.git
+	url = https://github.com/edelight/chef-solo-search.git
 [submodule "cookbooks/sudo"]
 	path = cookbooks/sudo
-	url = git://github.com/opscode-cookbooks/sudo.git
+	url = https://github.com/opscode-cookbooks/sudo.git
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
-	url = git://github.com/opscode-cookbooks/build-essential.git
+	url = https://github.com/opscode-cookbooks/build-essential.git
 [submodule "cookbooks/rbenv"]
 	path = cookbooks/rbenv
-	url = git://github.com/fnichol/chef-rbenv.git
+	url = https://github.com/fnichol/chef-rbenv.git
 [submodule "cookbooks/zlib"]
 	path = cookbooks/zlib
-	url = git://github.com/opscode-cookbooks/zlib.git
+	url = https://github.com/opscode-cookbooks/zlib.git
 [submodule "cookbooks/xml"]
 	path = cookbooks/xml
-	url = git://github.com/opscode-cookbooks/xml.git
+	url = https://github.com/opscode-cookbooks/xml.git
 [submodule "cookbooks/readline"]
 	path = cookbooks/readline
-	url = git://github.com/atomic-penguin/cookbook-readline.git
+	url = https://github.com/atomic-penguin/cookbook-readline.git
 [submodule "cookbooks/java"]
 	path = cookbooks/java
-	url = git://github.com/opscode-cookbooks/java.git
+	url = https://github.com/opscode-cookbooks/java.git
 [submodule "cookbooks/ruby_build"]
 	path = cookbooks/ruby_build
-	url = git://github.com/fnichol/chef-ruby_build.git
+	url = https://github.com/fnichol/chef-ruby_build.git
 [submodule "cookbooks/git"]
 	path = cookbooks/git
-	url = git://github.com/opscode-cookbooks/git.git
+	url = https://github.com/opscode-cookbooks/git.git
 [submodule "cookbooks/subversion"]
 	path = cookbooks/subversion
-	url = git://github.com/opscode-cookbooks/subversion.git
+	url = https://github.com/opscode-cookbooks/subversion.git
 [submodule "cookbooks/screen"]
 	path = cookbooks/screen
-	url = git://github.com/opscode-cookbooks/screen.git
+	url = https://github.com/opscode-cookbooks/screen.git
 [submodule "cookbooks/zsh"]
 	path = cookbooks/zsh
-	url = git://github.com/opscode-cookbooks/zsh.git
+	url = https://github.com/opscode-cookbooks/zsh.git
 [submodule "cookbooks/apt"]
 	path = cookbooks/apt
-	url = git://github.com/opscode-cookbooks/apt.git
+	url = https://github.com/opscode-cookbooks/apt.git
 [submodule "cookbooks/emacs-snapshot"]
 	path = cookbooks/emacs-snapshot
-	url = git://github.com/niku/emacs-snapshot.git
+	url = https://github.com/niku/emacs-snapshot.git
 [submodule "cookbooks/locale-gen"]
 	path = cookbooks/locale-gen
-	url = git://github.com/niku/locale-gen.git
+	url = https://github.com/niku/locale-gen.git
 [submodule "cookbooks/locale"]
 	path = cookbooks/locale
-	url = git://github.com/heavywater/chef-locale.git
+        url = https://github.com/heavywater/chef-locale.git
 [submodule "cookbooks/timezone"]
 	path = cookbooks/timezone
-	url = git://github.com/niku/chef-timezone.git
+	url = https://github.com/niku/chef-timezone.git
 [submodule "cookbooks/cmigemo"]
 	path = cookbooks/cmigemo
-	url = git://github.com/niku/cmigemo.git
+	url = https://github.com/niku/cmigemo.git
 [submodule "cookbooks/exuberant-ctags"]
 	path = cookbooks/exuberant-ctags
-	url = git://github.com/niku/exuberant-ctags.git
+	url = https://github.com/niku/exuberant-ctags.git
 [submodule "cookbooks/nodejs"]
 	path = cookbooks/nodejs
-	url = git://github.com/mdxp/nodejs-cookbook.git
+	url = https://github.com/mdxp/nodejs-cookbook.git
 [submodule "cookbooks/tmux"]
 	path = cookbooks/tmux
-	url = git://github.com/opscode-cookbooks/tmux.git
+	url = https://github.com/opscode-cookbooks/tmux.git
