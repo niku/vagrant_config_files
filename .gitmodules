@@ -51,7 +51,7 @@
 	url = https://github.com/niku/locale-gen.git
 [submodule "cookbooks/locale"]
 	path = cookbooks/locale
-        url = https://github.com/heavywater/chef-locale.git
+        url = https://github.com/hw-cookbooks/locale.git
 [submodule "cookbooks/timezone"]
 	path = cookbooks/timezone
 	url = https://github.com/niku/chef-timezone.git
